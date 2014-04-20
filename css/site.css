@@ -1,0 +1,86 @@
+@charset "UTF-8";
+@font-face { font-family: lobster; src: url(../fonts/Lobster_1_4.otf); } 
+
+body, html { background-image: url(../img/tree_bark.png); }
+
+#header {
+	color: #55B1B0;
+	font-family: lobster;
+	font-size: 150px;
+    text-align:center;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, .6);
+    -webkit-backface-visibility: hidden;
+}
+
+#primary {  
+  background-color: #4F4F4F;
+
+	);
+  
+  /* For rounding edges */
+	-moz-border-radius:10px;  /* for Firefox */
+	-webkit-border-radius:10px; /* for Webkit-Browsers */
+	border-radius:10px; /* regular */
+  
+  /* Shadow */
+  -webkit-box-shadow: 2px 2px 2px 0px rgba(1,1,1,.6);
+  -moz-box-shadow: 2px 2px 2px 0px rgba(1,1,1,.6);
+  box-shadow: 2px 2px 2px 0px rgba(1,1,1,.6);
+  
+  /* Padding */
+  padding: 10px;
+
+    -webkit-backface-visibility: hidden;
+}
+
+/* Override bootstrap's tabs text */
+.nav > li > a {
+    float: none;
+    line-height: 19px;
+    padding: 9px 10px 11px;
+    text-decoration: none;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    font-family: lobster;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+
+.body-content { color: #FFFFFF; margin-top: 10px; }
+
+.tab-pane-content { margin-top: 10px; }
+
+.upper-margin { margin-top: 10px; }
+
+.check-it-out-link { color: #FFFFFF; }
+
+/* Override panel header */
+.panel-default > .panel-heading { background-color: #000000; }
+
+/* Override panel title */
+.panel-title { text-align: center; color: #FFFFFF; }
+
+/* Override panel body */
+.panel-body { background-color: #000000; }
+
+/* Override alert info box */
+.alert-info { background-color: #E4E4E4; border-color: #FFFFFF; }
+
+/* Override alert info box text */
+.alert-info > p { color: #000000; }
+
+
+.imgBorder {
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 4px;
+    border-color: #FFFFFF;
+
+}
+
+.nav-pills>li.active>a {
+    background-color: #000000;
+
+}
+
+.nav-pills>li.active>a:hover {
+    background-color: #000000;
+}
